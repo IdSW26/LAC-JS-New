@@ -1,0 +1,15 @@
+[
+    {"img": "lapis1.jpg", "nome": "Lapis", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "garrafa1.jpg", "nome": "Garrafa d'Agua", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "casa.jpg", "nome": "Casa", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "bunker.jpg", "nome": "Bunker", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "lua.jfif", "nome": "Terreno na Lua", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "ilha-do-bob.jfif", "nome": "Ilha Privada", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "uno-do-braia.jfif", "nome": "UNO do Braia", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "roblox.jfif", "nome": "Cota Top Roblox", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "uranio.jpg", "nome": "1.5kg de Uranio", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "tuc-tuc.jpg", "nome": "Tuc-Tuc direto da India", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "icbm1.jpg", "nome": "ICBM Soviético", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "cobre-jpg.jpg", "nome": "Terreo Rico em Cobre", "preco": 15.00, "endereco": "carrinho.html"},
+    {"img": "cama.jfif", "nome": "Cama bem confortavel", "preco": 15.00, "endereco": "carrinho.html"}
+] 

@@ -1,0 +1,235 @@
+body, html{
+    font-family: 'Caviar Dreams';
+    margin: 0%;
+    height: 100%;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 150px auto 180px ;
+        grid-template-columns: auto;
+}
+@media only screen and (max-width: 850px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 150px auto 180px;
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width: 450px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 150px auto 180px;
+        grid-template-columns: auto; 
+    }
+}
+.card{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    border: yellow 3px  solid;
+    background-color: rgb(47, 165, 47);
+    width: 270px;
+    height: 470px;
+    border-radius: 50px;
+}
+
+.mae{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-prod{
+    width: 290px;
+    max-height: 200px;
+}
+.header{
+    grid-area: header;
+    background-color: blue;
+    display: flex;
+}
+.main{
+    grid-area: main;
+    background-color: darkgreen;
+}
+.footer{
+    grid-area: footer;
+    background-color: dimgray;
+}
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(caviar_dreams/CaviarDreams.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+.logo{
+    height: 170px;
+    width: 220px;
+}
+.sobreNos{
+    margin-top: 65px;
+    font-size: x-large;
+}
+.carrinho{
+    width: 70px;
+    height: 60px;
+    margin-top: 45px;
+}
+.login{
+    margin-top: 20px;
+    width: 90px;
+    height: 110px;
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.bemVindo{
+    text-align: center;
+    margin: 0px;
+    height: 60px;
+    background-color: brown;
+}
+.galeria{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.galeria img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}   
+#descricao{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#nome{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#preco{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.addCarrinho{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#header_esq{
+    display: flex;
+    gap: 80px;
+    margin-left: auto;
+}   
+.fds{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.fds-linha{
+    background-color: black;
+    border: black 3px solid;
+}
+.inputs{
+    margin-bottom: 5px;
+    border-radius: 10px;
+    height: 30px;
+}
+#input-ult{
+    margin-bottom: 15px;
+}
+.botao{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(1, 35, 230);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.card-2{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    border: yellow 3px  solid;
+    background-color: rgb(47, 165, 47);
+    width: 70%;
+    height: 170px;
+    border-radius: 50px;
+}
+.img-prod-2{
+    width: 150px;
+    height: 150px;
+}
+.finalizar-compra{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(1, 35, 230);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 450px){
+    .card{
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 35px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        align-items: center;
+        border: rgb(255, 0, 0) 3px  solid;
+        background-color: rgb(165, 47, 47);
+        width: 250px;
+        height: 420px;
+    }
+    .card-lft{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-prod{
+        width: 190px;
+        height: 200px;
+    }
+}
