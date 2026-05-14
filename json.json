@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "bolsnaro", "arma": "metralhadora", "idade": "44", "poder": "invocar a familia", "voto": "Bozo"
+    },
+    {
+        "nome": "lula", "arma": "O L", "idade": "50", "poder": "estrela do PT", "voto": "Painho"
+    },
+    {
+        "nome": "datena", "arma": "cadeira", "idade": "37", "poder": "conjurar cadeiras", "voto": "Barriga"
+    },
+    {
+        "nome": "dilma", "arma": "continhas magicas", "idade": "49", "poder": "espalhar burrice", "voto": "Sabadoria"
+    },
+    {
+        "nome": "lobão", "arma": "as garras do lobo", "idade": "500", "poder": "aprimoramento na lua cheia", "voto": "Bembão"
+    }
+]

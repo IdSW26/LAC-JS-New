@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
-<body onload="trazDados()">
+<body onload="vemTabela()">
     <script src="script.js"></script>
-    <header class="header">
-        <a href="index.html"><img src="imagens/Logo.png" alt="" class="logo"></a>
-        <div id="header_esq">
-            <a href="sobreNos.html">
-                <h1 class="sobreNos">Sobre Nós</h1>
-            </a>
-            <a href="carrinho.html"><img src="imagens/carrinho.png" class="carrinho"></a>
-            <a href="login.html"><img src="imagens/login.png" class="login" alt=""></a>
-        </div>
-    </header>
-    <main class="main">
-        <hr class="div-2">
-        <h1 class="bemVindo">Bem-vindo à Loja!</h1>
-        <hr class="div-2">
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Candidato</td>
+                <td>Arma</td>
+                <td>Idade</td>
+                <td>Poder</td>
+            </tr>
+        </thead>
+        <tbody id="dadoAqui">
 
-        <div class="mae" id="vemDado">
-            
-        </div>
-    </main>
-    <footer class="footer">
-        <h1>Algo</h1>
-    </footer>
+        </tbody>
+    </table>
+    <br>
 
+    <input type="text" name="FAAAAAAAAAAAAAAAAHHHHH" id="input1" value="FAAAAAAAAAAAAAAAAHHHHH"><br>
+    <input type="text" name="FAAAAAAAAAAAAAAAAHHHHH" id="input2" value="FAAAAAAAAAAAAAAAAHHHHH"><br>
+    <input type="text" name="FAAAAAAAAAAAAAAAAHHHHH" id="input3" value="FAAAAAAAAAAAAAAAAHHHHH"><br>
+    <input type="text" name="FAAAAAAAAAAAAAAAAHHHHH" id="input4" value="FAAAAAAAAAAAAAAAAHHHHH">
+
+    <button type="button" onclick="batalhar()">Batalha</button>
 </body>
-
 </html>
